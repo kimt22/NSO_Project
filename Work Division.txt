@@ -1,0 +1,23 @@
+- Network Services and Operation Project
+
+Group: Project 106
+Group Members: 
+1) Venkata Chandra Sai Srimanth Bhamidipati
+2) Madhukar Reddy Putta
+3) Kishore Mothukuru Pushparaj
+4) RajaVishnu Dev Venna
+
+In this project, we are using what we learned and implemented from our previous assignments (Network Design and Implementation, Service Deployment and Configuration, Service Monitoring) within Openstack and Various form of Automation.
+
+This project contains
+1. Access to cloud using openrc file.
+2. Deployment, Operation and Cleanup.
+3. Report Writing.
+
+Work Division:
+- Deployment of the required nodes. This part will be done by Srimanth.
+- Operation part will be done by Madhukar Reddy.
+- Cleanup the environment. This part will be done by Kishore Mothukuru.
+- Report Writing will be done by RajaVishnu Dev.
+
+
