@@ -2,7 +2,7 @@
 
 Group: Project 106
 Group Members: 
-1) Venkata Chandra Sai Srimanth Bhamidipati
+1) Venkata Sai Mukha Chandra Srimanth Bhamidipati
 2) Madhukar Reddy Putta
 3) Kishore Mothukuru Pushparaj
 4) RajaVishnu Dev Venna
