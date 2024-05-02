@@ -15,9 +15,9 @@ This project contains
 3. Report Writing.
 
 Work Division:
-- Deployment of the required nodes. This part will be done by Srimanth.
-- Operation part will be done by Madhukar Reddy.
-- Cleanup the environment. This part will be done by Kishore Mothukuru.
-- Report Writing will be done by RajaVishnu Dev.
+- Deployment of the required nodes. This part will be done by Srimanth and Madhukar Reddy.
+- Operation part will be done by Madhukar Reddy and Rajavishnu Dev.
+- Cleanup the environment. This part will be done by Rajavishnu Dev and Kishore Mothukuru.
+- Report Writing will be done by Kishore Mothukuru and Srimanth.
 
 Even though we look like we are doing separately. At each step of this project everyone of the group member is contribution is there. 
