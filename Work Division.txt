@@ -15,9 +15,29 @@ This project contains
 3. Report Writing.
 
 Work Division:
-- Deployment of the required nodes. This part will be done by Srimanth and Madhukar Reddy.
-- Operation part will be done by Madhukar Reddy and Rajavishnu Dev.
-- Cleanup the environment. This part will be done by Rajavishnu Dev and Kishore Mothukuru.
-- Report Writing will be done by Kishore Mothukuru and Srimanth.
+1. Deployment of the required nodes. This part will be done by Srimanth and Madhukar Reddy.
+Deployment has three stages 
+a. Network setup:
+- Madhukar will handle this stage configuring the essential networking components like networks, routers, subnets, and security groups in the OpenStack environment to ensure smooth communication between various nodes and services.
+b. Node provisioning:
+- Srimanth will set up the virtual machines needed for the project, such as service nodes, proxy nodes, and a bastion host. This involves 
+  launching them, selecting the right specifications, connecting required storage, and configuring them to start working correctly.
+c. Service Deployment:
+- In this two members(Madhukar and Srimanth) will deploy necessary services onto assigned nodes. This involves installing the service.py 
+  application and SNMP daemon on service nodes and setting up the load balancer (HAproxy/NGinx) on proxy nodes.
+2. Operation part will be done by Madhukar Reddy and Rajavishnu Dev.
+Operation has two stages
+a. Node Monitoring: 
+- Madhukar will focus on implementing the monitoring solution on the bastion host.
+b. Automatic Scaling:
+- Rajavishnu Dev will work on implementing the logic for automatic scaling during the operation phase. This involves continuously monitoring the number of nodes and adjusting the node count based on the desired configuration specified in the servers.conf file.
+3. Cleanup the environment. This part will be done by Rajavishnu Dev and Kishore Mothukuru.
+a. Resource Release:
+- Rajavishnu Dev is responsible for implementing the cleanup logic, which involves releasing all allocated cloud resources once the 
+  operation phase is complete.
+b. Validation and Verification:
+- Kishore focus on implementing validation checks to ensure that all resources have been properly released and that the OpenStack 
+  environment is in a clean state after the cleanup phase.
+4. Report Writing will be done by Kishore Mothukuru and Srimanth.
 
 Even though we look like we are doing separately. At each step of this project everyone of the group member is contribution is there. 
