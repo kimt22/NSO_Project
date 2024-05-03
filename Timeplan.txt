@@ -7,17 +7,19 @@ Group Members:
 3) Kishore Mothukuru Pushparaj
 4) RajaVishnu Dev Venna
 
+Project Description:
 In this project, we are using what we learned and implemented from our previous assignments (Network Design and Implementation, Service Deployment and Configuration, Service Monitoring) within Openstack and Various form of Automation.
 
-This project contains
-1. Access to cloud using openrc file.
-2. Deployment, Operation and Cleanup.
-3. Report Writing.
+The project is structured into four main phases: 
+1. Deployment
+2. Operation
+3. Cleanup 
+4. Report Writing
 
-Work Division:
+Time and Activity Plan:
 
-Week - 1. Deployment of the required nodes. This part will be done by Srimanth and Madhukar Reddy.
-Deployment has three stages 
+Week - 1. Deployment Phase. This part will be done by Srimanth and Madhukar Reddy.
+
 a. Network setup:
 - Madhukar will handle this stage configuring the essential networking components like networks, routers, subnets, and security groups in the OpenStack environment to ensure smooth communication between various nodes and services.
 b. Node provisioning:
@@ -27,21 +29,25 @@ c. Service Deployment:
 - In this two members(Madhukar and Srimanth) will deploy necessary services onto assigned nodes. This involves installing the service.py 
   application and SNMP daemon on service nodes and setting up the load balancer (HAproxy/NGinx) on proxy nodes.
 
-Week - 2. Operation part will be done by Madhukar Reddy and Rajavishnu Dev.
-Operation has two stages
+Week - 2. Operation Phase will be done by Madhukar Reddy and Rajavishnu Dev.
+
 a. Node Monitoring: 
 - Madhukar will focus on implementing the monitoring solution on the bastion host.
 b. Automatic Scaling:
-- Rajavishnu Dev will work on implementing the logic for automatic scaling during the operation phase. This involves continuously monitoring the number of nodes and adjusting the node count based on the desired configuration specified in the servers.conf file.
+- RajaVishnu Dev will work on implementing the logic for automatic scaling during the operation phase. This involves continuously monitoring the number of nodes and adjusting the node count based on the desired configuration specified in the servers.conf file.
 
-Week - 3. Cleanup the environment. This part will be done by Rajavishnu Dev and Kishore Mothukuru.
+Week - 3. Cleanup phase. This part will be done by Rajavishnu Dev and Kishore Mothukuru Pushparaj.
 a. Resource Release:
-- Rajavishnu Dev is responsible for implementing the cleanup logic, which involves releasing all allocated cloud resources once the 
-  operation phase is complete.
+-  Kishore Mothukuru Pushparaj will focus on implementing the cleanup logic to release all allocated cloud resources.
 b. Validation and Verification:
-- Kishore focus on implementing validation checks to ensure that all resources have been properly released and that the OpenStack 
+- RajaVishnu Dev focuses on implementing validation checks to ensure that all resources have been properly released and that the OpenStack 
   environment is in a clean state after the cleanup phase.
 
-Week - 4 (Submision Week) . Report Writing will be done by Kishore Mothukuru and Srimanth.
+Week - 4. Report Writing Phase. 
+Kishore Mothukuru Pushparaj and Srimanth Bhamidipati will collaborate on writing the report, adhering to the IEEE Conference Template.
 
-Even though we look like we are doing separately. At each step of this project everyone of the group member is contribution is there. 
+
+
+Even though we look like we are doing separately, everyone in our gorup is important and helps out in some way at every step because everything is connected
+
+Our shared GitHub repository serves as a proof to our teamwork, showcasing the collective contributions, code reviews, and discussions that have shaped our project. Additionally, living in the same location facilitates our ability to work closely together, enhancing our efficiency.
