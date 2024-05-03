@@ -10,7 +10,7 @@ Group Members:
 Project Description:
 In this project, we are using what we learned and implemented from our previous assignments (Network Design and Implementation, Service Deployment and Configuration, Service Monitoring) within Openstack and Various form of Automation.
 
-The project is structured into four main phases: 
+This project is structured into four main phases: 
 1. Deployment
 2. Operation
 3. Cleanup 
@@ -29,7 +29,7 @@ c. Service Deployment:
 - In this two members(Madhukar and Srimanth) will deploy necessary services onto assigned nodes. This involves installing the service.py 
   application and SNMP daemon on service nodes and setting up the load balancer (HAproxy/NGinx) on proxy nodes.
 
-Week - 2. Operation Phase will be done by Madhukar Reddy and Rajavishnu Dev.
+Week - 2. Operation Phase will be done by Madhukar Reddy and RajaVishnu Dev.
 
 a. Node Monitoring: 
 - Madhukar will focus on implementing the monitoring solution on the bastion host.
