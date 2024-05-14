@@ -34,7 +34,8 @@ Week - 2. Operation Phase will be done by Madhukar Reddy and RajaVishnu Dev.
 a. Node Monitoring: 
 - Madhukar will focus on implementing the monitoring solution on the bastion host.
 b. Automatic Scaling:
-- RajaVishnu Dev will work on implementing the logic for automatic scaling during the operation phase. This involves continuously monitoring the number of nodes and adjusting the node count based on the desired configuration specified in the servers.conf file.
+- RajaVishnu Dev will work on implementing the logic for automatic scaling during the operation phase. This involves continuously monitoring the number of nodes 
+  and adjusting the node count based on the desired configuration specified in the servers.conf file.
 
 Week - 3. Cleanup phase. This part will be done by Rajavishnu Dev and Kishore Mothukuru Pushparaj.
 a. Resource Release:
