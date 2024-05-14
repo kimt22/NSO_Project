@@ -51,4 +51,5 @@ Kishore Mothukuru Pushparaj and Srimanth Bhamidipati will collaborate on writing
 
 Even though we look like we are doing separately, everyone in our gorup is important and helps out in some way at every step because everything is connected
 
-Our shared GitHub repository serves as a proof to our teamwork, showcasing the collective contributions, code reviews, and discussions that have shaped our project. Additionally, living in the same location facilitates our ability to work closely together, enhancing our efficiency.
+Our shared GitHub repository serves as a proof to our teamwork, showcasing the collective contributions, code reviews, and discussions that have shaped our 
+ project. Additionally, living in the same location facilitates our ability to work closely together, enhancing our efficiency.
