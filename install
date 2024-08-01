@@ -216,7 +216,7 @@ elif (( required_no_of_servers> no_of_devp_serv)); then
         ((j++))
     done
 else
-    echo "Required number of dev servers ($required_no_of_servers) already exists."
+    echo "Required number of dev servers ($required_no_of_servers) already satisfied."
 fi
 
 float_ip_addr_bastion=$(openstack server list --name "$bastion_server" -c Networks -f value | grep -Po '\d+\.\d+\.\d+\.\d+' | awk 'NR==2')
@@ -303,6 +303,6 @@ echo "ansible_ssh_common_args='-F $sshconfig'" >>"$hostsfile"
 echo "$(date) Running ansible playbook"
 ansible-playbook -i "$hostsfile" site.yaml
 
-echo "Bastion IP address: "$floating_ip1""
+echo "Bastion server IP address: "$floating_ip1""
 
 echo "HAproxy IP address: "$floating_ip2""
